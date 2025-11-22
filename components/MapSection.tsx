@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapPin, Calendar, Clock } from 'lucide-react';
-import { ROUTE_SCHEDULE } from '../constants';
+import { ROUTE_SCHEDULE } from '../src/constants';
 
 const MapSection: React.FC = () => {
   return (

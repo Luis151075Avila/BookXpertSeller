@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import HowItWorks from './components/HowItWorks';
-import FeaturedBooks from './components/FeaturedBooks';
-import MapSection from './components/MapSection';
-import Footer from './components/Footer';
-import { BookProvider } from './context/BookContext';
-import AdminPanel from './components/AdminPanel';
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import HowItWorks from '../components/HowItWorks';
+import FeaturedBooks from '../components/FeaturedBooks';
+import MapSection from '../components/MapSection';
+import Footer from '../components/Footer';
+import { BookProvider } from '../context/BookContext';
+import AdminPanel from '../components/AdminPanel';
 
 function App() {
   const [isAdminOpen, setIsAdminOpen] = useState(false);

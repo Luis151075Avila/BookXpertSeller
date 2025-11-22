@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useBooks } from '../context/BookContext';
 import { X, Plus, Edit2, Trash2, Save, RotateCcw, Lock, LogIn, Image, DollarSign, Calendar, Tag, Type, User } from 'lucide-react';
-import { Book } from '../types';
+import { Book } from '../src/types';
 
 interface AdminPanelProps {
   isOpen: boolean;

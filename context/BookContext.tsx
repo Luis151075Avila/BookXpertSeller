@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { Book } from '../types';
-import { FEATURED_BOOKS } from '../constants';
+import { Book } from '../src/types';
+import { FEATURED_BOOKS } from '../src/constants';
 
 interface BookContextType {
   books: Book[];

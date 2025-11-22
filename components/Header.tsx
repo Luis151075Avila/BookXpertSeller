@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ShoppingBag, Menu, X, User } from 'lucide-react';
-import { NAV_ITEMS } from '../constants';
+import { NAV_ITEMS } from '../src/constants';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
